@@ -51,6 +51,7 @@ def votar_prefeito():
                 if votos == "sim" or votos == "SIM" or votos == "Sim":
                     voto_null += 1
                     show_Result_Prefeitos(prefeito_Pernalonga, prefeito_Patolino, prefeito_Taz, voto_null, voto_Branco)
+                    votar_Vereador()
                     break
                 else: 
                     votar_prefeito()

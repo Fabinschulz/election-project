@@ -1,4 +1,4 @@
-"""Mostra o Resultado dos Votos para cada candidato"""
+"""Mostra o Resultado Final dos Votos para cada candidato"""
 
 def show_Result_Prefeitos(prefeito_Pernalonga, prefeito_Patolino, prefeito_Taz, voto_null, voto_Branco):  # printa o resultados
 
@@ -10,7 +10,7 @@ def show_Result_Prefeitos(prefeito_Pernalonga, prefeito_Patolino, prefeito_Taz, 
     print(f'Votos em Branco {voto_Branco} votos \n')
 
 def show_Result_Vereadores(vereador_Piu_Piu, vereador_Hector,vereador_Frajola, vereador_Vovo, vereador_Bulldog,
-                            vereador_Papa_Leguas, vereador_Coiote, vereador_Ligeirinho, vereador_Marvin, vereador_Lola, voto_null, voto_Branco):  # printa o resultados e encerra programa
+                            vereador_Papa_Leguas, vereador_Coiote, vereador_Ligeirinho, vereador_Marvin, vereador_Lola, voto_null, voto_Branco): 
 
     print('Resultado:')
     print(f'candidato a vereador Piu-Piu - teve {vereador_Piu_Piu} votos \n')
